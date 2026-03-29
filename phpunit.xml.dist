@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+	<testsuites>
+		<testsuite name="Universal CPT Migrator">
+			<file>tests/test-validator.php</file>
+			<file>tests/test-compatibility.php</file>
+			<file>tests/test-discovery-schema.php</file>
+			<file>tests/test-relationship-import.php</file>
+			<file>tests/test-acf-value-mapper.php</file>
+			<file>tests/test-meta-export-import.php</file>
+			<file>tests/test-media-dedupe.php</file>
+			<file>tests/test-diagnostics-actions.php</file>
+			<file>tests/test-background-jobs.php</file>
+			<file>tests/test-admin-ajax.php</file>
+			<file>tests/test-admin-post-download.php</file>
+			<file>tests/test-media-import-failures.php</file>
+			<file>tests/test-package-transport.php</file>
+			<file>tests/test-scale.php</file>
+		</testsuite>
+	</testsuites>
+</phpunit>

@@ -1,0 +1,10 @@
+{
+  "name": "universal-cpt-migrator-browser-tests",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.53.0"
+  },
+  "scripts": {
+    "test:browser": "playwright test"
+  }
+}
